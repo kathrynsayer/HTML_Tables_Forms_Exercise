@@ -9,7 +9,7 @@
     <main>
       <table>
         <tr>
-          <th></th>
+          <th>Name</th>
           <th>total servings</th>
           <th>serving size</th>
           <th>calories per serving</th>
@@ -65,21 +65,23 @@
         </tr>
       </table>
       <form>
-        <label for="total servings">Total Servings</label>
-        <input id="Total Servings">
-        <label for="serving size">Serving Size</label>
-        <input id="Serving Size">
-        <label for="calories per serving">Calories Per Serving</label>
-        <input id="calories per serving">
-        <label for="carbs per serving">Carbs Per Serving</label>
-        <input id="Carbs Per Serving">
-        <label for="Sugars Per Serving">Sugars Per Serving</label>
-        <input id="Sugars Per Serving">
-        <label for="Sodium Per Serving">Sodium Per Serving</label>
-        <input id="Sodium Per Serving">
+        <div class="form-group"
+          <label for="Name">Name:</label>
+          <input type="text" name="Name" id="name" required />
+        </div>
+        <div class="form-group"
+          <label for="Total Servings">Servings:</label>
+          <input type="number" name="Servings" id="servings" required />
+        </div>
+        <div class="form-group"
+          <label for="Serving Size">Serving Size:</label>
+          <input type="number" name="Serving Size" id="serving size" required />
+        </div>
+        <div class="form-group"
+          <label for="Total Servings">Servings:</label>
+          <input type="number" name="Servings" id="servings" required />
+        </div>
         <button type="submit">Submit</button>
-
-
       </form>
     </main>
   </body>
